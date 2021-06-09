@@ -10,7 +10,6 @@ public float boostMult = 1.5f;
 public Rigidbody cubebody;
 public class Xperimental_Movement : MonoBehavior
 {
-	//TODO gotta find out how to get a UI system working!
 	void OnCollisionEnter();
 	{
 		print("waiting for the dev to actually make collisions instead of wasting his fucking time writing this smh");
@@ -19,8 +18,7 @@ public class Xperimental_Movement : MonoBehavior
 	{
 		OnCollisionEnter();
 		cubebody = GetComponent<Rigidbody>();
-		print("Dumpster fire of a game made by Bit Bit");
-		print("Enjoy :3");
+		print("Dumpster fire of a game made by (insert your name here)");
 	}
 	void Update()
 	{
