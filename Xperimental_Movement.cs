@@ -22,6 +22,10 @@ public class Xperimental_Movement : MonoBehavior
 	}
 	void Update()
 	{
+		void Movement();
+	}
+	void Movement()
+	{
 		if(Input.GetKey(KeyCode.W))
 		{
 			transform.Position(Vector3.forward * fwdSpeed * (Input.GetAxis("boost") * boostMult) * Time.fixedDeltaTime);
