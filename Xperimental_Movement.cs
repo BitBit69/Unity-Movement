@@ -10,13 +10,8 @@ public float boostMult = 1.5f;
 public Rigidbody cubebody;
 public class Xperimental_Movement_Control : MonoBehavior
 {
-	void OnCollisionEnter(Collision collision);
-	{
-		
-	}
 	void Start()
 	{
-		OnCollisionEnter();
 		cubebody = GetComponent<Rigidbody>();
 	}
 	void Update()
