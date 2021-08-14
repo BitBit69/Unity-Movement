@@ -8,7 +8,7 @@ public float bckSpeed = 1000;
 public float rotSpeed = 1000;
 public float boostMult = 1.5f;
 public Rigidbody cubebody;
-public class Xperimental_Movement_Control : MonoBehavior
+public class Xperimental_Movement_Control : MonoBehaviour
 {
 	void Start()
 	{
